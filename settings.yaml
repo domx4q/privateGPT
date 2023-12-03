@@ -25,6 +25,7 @@ ui:
 
 llm:
   mode: local
+  max_new_tokens: 512 # default is 256
 
 embedding:
   # Should be matching the value above in most cases
